@@ -1,0 +1,41 @@
+@media(min-width:768px){
+    .flex-box{
+        display: flex;
+        /* align-items: flex-start;
+           align-items: flex-end;
+           flex-direction: row; 
+         */
+    }
+    .flex-2{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.flex-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex-box>div,.flex-2>div,.flex-3>div{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.box-flex{
+    flex-basis: 15%;
+}
+.box{
+    flex-basis: 27%;
+}
+.box-1{
+    /* flex:2; */
+    flex:2;
+    order: 2;
+}
+.box-2{
+    flex:1;
+    order: 1;
+}
+.box-3{
+    flex:1;
+    order: 3;
+}

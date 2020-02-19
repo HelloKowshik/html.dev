@@ -1,0 +1,37 @@
+<!-- Modern Js-Dom Project-1 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modern Js-dom Project-1</title>
+	<meta charset="UTF-8" />
+</head>
+<body>
+	<div id="app">
+		<h4>Task List</h4>
+		<hr/>
+	<input type="text" class="task" placeholder="press Enter"/>
+	<ol class="taskList"></ol>
+	</div>
+    <script>
+        let task = document.querySelector('.task');
+        let taskList = document.querySelector('.taskList');
+        let taskArray = [];
+        function render(elements){
+        taskList.innerHTML = "";
+        elements.forEach(e=>{
+        let newEl = document.createElement('li');
+        newEl.innerHTML = e;
+        taskList.appendChild(newEl);
+        });
+        };
+        task.addEventListener('keyup',e=>{
+        if(e.which===13 && task.value!==0){
+        taskArray.push(task.value);
+        task.value = "";
+        render(taskArray);
+        }
+        });
+    </script>
+</body>
+
+</html>

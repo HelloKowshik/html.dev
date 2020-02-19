@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GRID TEST-PROJECT</title>
+    <style>
+        .wrapper>div{
+            padding: 1.6em;
+        }
+        .wrapper{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-rows: minmax(90px,auto);
+        }
+        .header{
+            background-color: coral;
+            grid-column: 1/3;
+        }
+        .nav{
+            background: #333;
+            color:#fff ;
+            grid-column: 1/3;
+        }
+        .showcase{
+            background-image: url("../img/img-3.jpg");
+            grid-column: 1/3;
+            grid-row: 3/4;
+        }
+        .section{
+            grid-column: 1/2;
+            background: chocolate;
+        }
+        .aside{
+            grid-column: 2;
+            background: steelblue;
+        }
+        .footer{
+            grid-column: 1/3;
+            background: gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">HEADER</div>
+        <div class="nav">NAV</div>
+        <div class="showcase">SHOW CASE</div>
+        <div class="section">SECTION</div>
+        <div class="aside">ASIDE</div>
+        <div class="footer">FOOTER</div>
+    </div>
+</body>
+</html>

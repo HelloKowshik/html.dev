@@ -1,0 +1,43 @@
+[{
+    "winner": "Bangladesh",
+    "runner_up": "India",
+    "year": 2020,
+    "host": "South Africa",
+    "teams": ["Bangladesh", "India", "Pakistan", "Australia", "England", "South Africa"]
+},
+{
+    "winner": "India",
+    "runner_up": "Australia",
+    "year": 2018,
+    "host": "Newzeland",
+    "teams": ["Bangladesh", "India", "Pakistan", "Australia", "England", "South Africa"]
+},
+{
+    "winner": "Westindies",
+    "runner_up": "India",
+    "year": 2016,
+    "host" : "Bangladesh",
+    "teams": ["Bangladesh", "India", "Pakistan", "Australia", "England", "South Africa"]
+},
+{
+    "winner": "South Africa",
+    "runner_up": "Pakistan",
+    "year": 2014,
+    "host" : "UAE",
+    "teams": ["Bangladesh", "India", "Pakistan", "Australia", "England", "South Africa"]
+},
+{
+    "winner": "India",
+    "runner_up": "Australia",
+    "year": 2012,
+    "host" : "Australia",
+    "teams": ["Bangladesh", "India", "Pakistan", "Australia", "England", "South Africa"]
+},
+{
+    "winner": "Australia",
+    "runner_up": "Pakistan",
+    "year": 2010,
+    "host" : "Newzeland",
+    "teams": ["Bangladesh", "India", "Pakistan", "Australia", "England", "South Africa"]
+}
+]

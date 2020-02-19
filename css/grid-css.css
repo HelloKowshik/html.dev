@@ -1,0 +1,26 @@
+.wrapper > div{
+    background: #eee;
+    padding: 1.6em;
+}
+
+.wrapper > div:nth-child(odd){
+    background: #ddd;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1em;
+    grid-auto-rows: minmax(100px,auto);
+}
+
+.nest > div{
+    border : 1px solid red;
+    padding: 1em;
+}
+
+.nest{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1em;
+}

@@ -1,0 +1,145 @@
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    /*font-family: Courier,Arial, Helvetica, sans-serif;*/
+    font: normal 20px Helvetica,sans-serif,Tahoma;
+    line-height: 1.6em;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+a:hover{
+    color: red;
+    font-size: 25px;
+}
+     
+.box-1{
+    background-color: #333;
+    color:#fff;
+    border: 5px green solid;
+    padding: 20px;
+    margin: 20px;
+}
+.box-1 h1 ,.box-2 h1{
+    font-family: Tahoma;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    word-spacing: 0.5em;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.box-2{
+    border: 5px cornflowerblue solid;
+    padding: 20px;
+    margin: 20px;
+}
+.categories{
+    border: 5px lightseagreen solid;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.categories h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+.categories ul{
+    list-style-type: none;
+    padding : 0;
+}
+.categories li{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #333;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"],textarea{
+    width: 100%;
+    padding: 8px;
+}
+
+.button{
+    padding: 10px 15px;
+    background-color: aqua;
+    color: #555555;
+    border: none;
+    font-size: 1.2em;
+}
+
+.row{
+    width: 33.3%;
+    float: left;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+.clear-fix{
+    clear: both;
+}
+.main{
+    float: left;
+    width: 70%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.sidebar{
+    float: right;
+    width: 30%;
+    padding: 5px;
+    background-color: #333;
+    color: #f4f4f4;
+    box-sizing: border-box;
+}
+.pos-box{
+    width: 800px;
+    height: 400px;
+    border: 1px solid #333;
+    margin-top: 20px;
+    position: relative;
+    background-image: url('../img/img-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.pos-box h1{
+    position: absolute;
+    top: 190px;
+    left: 310px;
+}
+
+.pos-box h2{
+    position: absolute;
+    right: 0px;
+}
+.fix{
+    position: fixed;
+    top: 250px;
+}
+.my-list li:nth-child(even){
+    background: red;
+    list-style: none;
+}
+
+.my-list li:nth-child(odd){
+    background: yellowgreen;
+    list-style-type: none;
+}
